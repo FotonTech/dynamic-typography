@@ -1,0 +1,75 @@
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 19px;
+  }
+}
+
+/*
+  - Muitas linhas de código.
+  - Péssimo para dar manutenção.
+  + Domínio dos tamanhos dos textos e das telas.
+*/

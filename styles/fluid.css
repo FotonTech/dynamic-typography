@@ -1,0 +1,31 @@
+html,
+body {
+  /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+  /* Entre 320px e 1600px os textos vão ser fluidos. Antes e depois disso, os tamanhos serão fixados. Mínimo 16px e máximo de 20px */
+  font-size: calc(16px + (19 - 16) * ((100vw - 320px) / (1600 - 320)));
+
+  /* font-size: clamp([minimum size] [desirable value] [max value]) */
+  /* font-size: clamp(16px, 2vw, 19px); */
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.488rem;
+}
+
+h2 {
+  font-size: 2.074rem;
+}
+
+h3 {
+  font-size: 1.728rem;
+}
+
+/*
+  + Poucas linhas de código
+  + Fácil de dar manutenção
+  + Tipografia totalmente fluida e dominável (Você consegue programar o tamanho máximo e mínimo dos textos e das telas).
+*/

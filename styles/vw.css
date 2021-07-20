@@ -1,0 +1,23 @@
+p {
+  font-size: 1vw;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+h2 {
+  font-size: 2.2vw;
+}
+
+h1 {
+  font-size: 2.5vw;
+}
+
+/*
+  - Imprevisibilidade do tamanho dos textos.
+  - Difícil de seguir um design definido no Figma pelo designer do projeto.
+  - Texto muito pequeno em telas menores, e muito grande em telas maiores (resolução 4k ou maior).
+  + Poucas linhas de código.
+  + Fácil de dar manutenção.
+*/
